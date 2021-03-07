@@ -1,0 +1,4 @@
+/home/madking/Documents/C++/Dolos/build/CMakeFiles/rebuild_cache.dir
+/home/madking/Documents/C++/Dolos/build/CMakeFiles/edit_cache.dir
+/home/madking/Documents/C++/Dolos/build/CMakeFiles/client.dir
+/home/madking/Documents/C++/Dolos/build/CMakeFiles/dolos.dir

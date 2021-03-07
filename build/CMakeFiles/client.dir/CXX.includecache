@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/madking/Documents/C++/Dolos/src/Client/main.cpp
+sys/socket.h
+-
+arpa/inet.h
+-
+iostream
+-
+netdb.h
+-
+memory.h
+-
+unistd.h
+-
+
