@@ -1,4 +1,4 @@
-#include "../../include/Server/Server.h"
+#include "../include/Server.h"
 
 void testCommand(const char &buffer) {
     std::string newString = &buffer;

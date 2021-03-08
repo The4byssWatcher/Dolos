@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../../include/Server/Server.h"
+#include "include/Server.h"
 #include "config.h"
 
 int main() {

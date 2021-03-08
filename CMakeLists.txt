@@ -8,18 +8,14 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
-file(GLOB SRC "src/Server/*.cpp")
-file(GLOB LIB "include/Server/*.h")
-
-file(GLOB SRC_CLIENT "src/Client/*.cpp")
-file(GLOB LIB_CLIENT "include/Client/*.h")
+file(GLOB SRC "src/*.cpp")
+file(GLOB LIB "include/*.h")
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 configure_file(include/config.h.in config.h @ONLY)
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
 
-add_executable(dolos ${SRC} ${LIB})
-add_executable(client ${SRC_CLIENT} ${LIB_CLIENT})
+add_executable(dolos main.cpp ${SRC} ${LIB})
 
 
 
