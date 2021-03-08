@@ -14,6 +14,7 @@ file(GLOB LIB "include/Server/*.h")
 file(GLOB SRC_CLIENT "src/Client/*.cpp")
 file(GLOB LIB_CLIENT "include/Client/*.h")
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 configure_file(include/config.h.in config.h @ONLY)
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
 

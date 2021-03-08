@@ -1,1 +1,0 @@
-/usr/bin/c++   -pthread -O3 -DNDEBUG   CMakeFiles/dolos.dir/src/Server/Server.cpp.o CMakeFiles/dolos.dir/src/Server/main.cpp.o  -o ../bin/dolos 
